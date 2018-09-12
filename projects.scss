@@ -1,0 +1,41 @@
+@import "main.scss";
+
+.project {
+  padding: 3em 0;
+}
+
+.projectTitle {
+  @include marginalized;
+}
+
+.projectDescription {
+  @include marginalized;
+}
+
+.image {
+  @include marginalized;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.imageBanner {
+  width: 100%;
+}
+
+.imageCaption {
+  @include type;
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.imageLeft {
+  max-width: 40%;
+  float: left;
+  margin-right: 1em;
+}
+
+.projectList {
+  @include type;
+  @include marginalized;
+}
