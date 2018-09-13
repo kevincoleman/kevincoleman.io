@@ -39,3 +39,30 @@
   @include type;
   @include marginalized;
 }
+
+iframe.clock {
+  @include marginalized;
+  width: 80vw;
+  display: none;
+
+  @media (min-width: $large) {
+    &.large {
+      display: block;
+      height: 19em;
+      margin-top: 3em;
+    }
+  }
+  @media (min-width: $medium) and (max-width: $large) {
+    &.medium {
+      display: block;
+      height: 10em;
+    }
+  }
+  @media (max-width: $medium) {
+    &.small {
+      display: block;
+      height: 9em;
+      min-width: 235px;
+    }
+  }
+}
