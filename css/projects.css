@@ -14,7 +14,7 @@ header {
   align-items: center;
   padding: 0 3rem;
   background-color: #fff;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
 }
 
 a {
@@ -164,6 +164,40 @@ nav {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+iframe.clock {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+  display: none;
+}
+@media (min-width: 48rem) {
+  iframe.clock {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  iframe.clock.large {
+    display: block;
+    height: 19em;
+    margin-top: 3em;
+  }
+}
+@media (min-width: 28rem) and (max-width: 48rem) {
+  iframe.clock.medium {
+    display: block;
+    height: 10em;
+  }
+}
+@media (max-width: 28rem) {
+  iframe.clock.small {
+    display: block;
+    height: 9em;
+    min-width: 235px;
   }
 }
 
