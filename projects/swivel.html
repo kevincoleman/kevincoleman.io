@@ -4,13 +4,16 @@
 <head>
   <title>kevincoleman.io - Swivel</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="../css/projects.css">
+  <script src="path/to/stickyfill.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <header>
-    <h1 class="headerTitle"><a href="../index.html">><span class="headerName">&nbsp;kevincoleman.io</span></a></h1>
+    <h1 class="headerTitle"><a href="../index.html">
+        <<span class="headerName">&nbsp;kevincoleman.io</span>
+      </a></h1>
     <nav>
       <a target="_blank" href="https://twitter.com/kevincolemanio" class="iconTwitter icon"></a>
       <a target="_blank" href="https://github.com/kevincoleman" class="iconGithub icon"></a>
@@ -21,7 +24,10 @@
   </header>
   <section class="project">
     <h1 class="projectTitle">Swivel: Developing a new Remote Office Experience</h1>
-    <!-- Image -->
+    <figure class="figure">
+      <img src="../images/swivel-people.png" alt="People using Swivel" class="figureImage">
+      <figcaption class="figureCaption">A marketing illustration I did for Swivel</figcaption>
+    </figure>
     <p class="projectDescription">A few years back, I found myself wanting a lightweight tool that would facilitate
       office
       conversation with a low barrier to entry. My initial thought was that taking the time to call someone via Zoom or
@@ -32,9 +38,9 @@
       just
       hold a keyboard shortcut and talk through my coworker’s office speakers?” I thought.
     </p>
-    <figure class="image">
-      <img src="../images/remote-communication.gif" alt="Remote Communication" class="imageBanner">
-      <figcaption class="imageCaption">I was done feeling like the lone wolf, only catching little bits of office
+    <figure class="figure">
+      <img src="../images/remote-communication.gif" alt="Remote Communication" class="figureImage">
+      <figcaption class="figureCaption">I was done feeling like the lone wolf, only catching little bits of office
         culture.</figcaption>
     </figure>
     <p class="projectDescription">If we could maintain video calls for long periods of time to pair-program, why
@@ -55,8 +61,8 @@
       From these thoughts, I began sketching ideas for how presence, proximity, and volume might be represented
       naturally to users.
     </p>
-    <figure class="image">
-      <img src="../images/notes.png" alt="Brainstorming notes" class="imageBanner">
+    <figure class="figure">
+      <img src="../images/notes.png" alt="Brainstorming notes" class="figureImage">
     </figure>
     <p class="projectDescription">
       There were lots of things to think about in the realm of presence. Was it ok for someone to hear me if I couldn’t
@@ -67,14 +73,14 @@
       crafted
       up a small component designed to represent a user’s presence.
     </p>
-    <figure class="image">
-      <img src="../images/presence.png" alt="Thoughts about displaying presence" class="imageBanner">
+    <figure class="figure">
+      <img src="../images/presence.png" alt="Thoughts about displaying presence" class="figureImage">
     </figure>
     <p class="projectDescription">
       From there it was only natural to begin using these components in a format that seemed familiar: a chat client.
     </p>
-    <figure class="image">
-      <img src="../images/grouping-up.gif" alt="User representations in a chat client window" class="imageLeft">
+    <figure class="figure imageLeft">
+      <img src="../images/grouping-up.gif" alt="User representations in a chat client window" class="figureImage">
     </figure>
     <p class="projectDescription">
       This immediately threw us into the deep end, as we considered how basic design principles like alignment and
@@ -94,9 +100,9 @@
       the UI
       to take advantage of larger screens, since we found we used the app on desktop as much as mobile.
     </p>
-    <figure class="image">
-      <img src="../images/wide-view.png" alt="Sketches of how to display a larger view" class="imageBanner">
-      <figcaption class="imageCaption">We sketched up mockups of how it might look to scale up both screen size and
+    <figure class="figure">
+      <img src="../images/wide-view.png" alt="Sketches of how to display a larger view" class="figureImage">
+      <figcaption class="figureCaption">We sketched up mockups of how it might look to scale up both screen size and
         number
         of users.</figcaption>
     </figure>
@@ -107,8 +113,8 @@
       before
       logging in.
     </p>
-    <figure class="image">
-      <img src="../images/hair-check.png" alt="A mockup of an interface for letting users check their state" class="imageBanner">
+    <figure class="figure">
+      <img src="../images/hair-check.png" alt="A mockup of an interface for letting users check their state" class="figureImage">
       </figcaption>
     </figure>
     <p class="projectDescription">
@@ -118,9 +124,9 @@
       using
       Swivel. As expected, we learned many valuable things, and came away with new ideas.
     </p>
-    <figure class="image">
-      <img src="../images/multi-layout.jpg" alt="A mockup of multiple sizes" class="imageBanner">
-      <figcaption class="imageCaption">A prototypal mockup of multiple application window sizes, including a
+    <figure class="figure">
+      <img src="../images/multi-layout.jpg" alt="A mockup of multiple sizes" class="figureImage">
+      <figcaption class="figureCaption">A prototypal mockup of multiple application window sizes, including a
         screen-sharing
         UI.
       </figcaption>

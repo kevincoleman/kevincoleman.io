@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
-  <title>kevincoleman.io - Swivel</title>
+  <title>kevincoleman.io - WWVA</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="../css/projects.css">
+  <script src="path/to/stickyfill.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <header>
-    <h1 class="headerTitle"><a href="../index.html">><span class="headerName">&nbsp;kevincoleman.io</span></a></h1>
+    <h1 class="headerTitle"><a href="../index.html">
+        <<span class="headerName">&nbsp;kevincoleman.io</span>
+      </a></h1>
     <nav>
       <a target="_blank" href="https://twitter.com/kevincolemanio" class="iconTwitter icon"></a>
       <a target="_blank" href="https://github.com/kevincoleman" class="iconGithub icon"></a>
@@ -20,118 +24,49 @@
     </nav>
   </header>
   <section class="project">
-    <h1 class="projectTitle">Swivel: Developing a new Remote Office Experience</h1>
-    <!-- Image -->
-    <p class="projectDescription">A few years back, I found myself wanting a lightweight tool that would facilitate
-      office
-      conversation with a low barrier to entry. My initial thought was that taking the time to call someone via Zoom or
-      Hangouts
-      was just too formal. Placing a call takes more effort than just speaking, and gives your coworker a chance to
-      decline.
-      There’s no overhearing office chatter with calls that are so planned and boring. “Wouldn’t it be great if I could
-      just
-      hold a keyboard shortcut and talk through my coworker’s office speakers?” I thought.
-    </p>
-    <figure class="image">
-      <img src="../images/remote-communication.gif" alt="Remote Communication" class="imageBanner">
-      <figcaption class="imageCaption">I was done feeling like the lone wolf, only catching little bits of office
-        culture.</figcaption>
-    </figure>
-    <p class="projectDescription">If we could maintain video calls for long periods of time to pair-program, why
-      couldn’t
-      we just always have a connection to the whole team open, awaiting a quick key-press to engage? Shoot—why couldn’t
-      we
-      even emulate an open floor plan where <em>the default</em> is to overhear what’s going on? I worked from coffee
-      shops;
-      coworking spaces; open offices. I gleaned thoughts about what it means to be present in a space:
-    </p>
-    <ul class="projectList">
-      <li>Presence is passive</li>
-      <li>Presence always implies proximity (which affects volume)</li>
-      <li>Presence is observable by all parties</li>
-      <li>...</li>
-    </ul>
-    <p class="projectDescription">
-      From these thoughts, I began sketching ideas for how presence, proximity, and volume might be represented
-      naturally to users.
-    </p>
-    <figure class="image">
-      <img src="../images/notes.png" alt="Brainstorming notes" class="imageBanner">
+    <h1 class="projectTitle">Walla Walla Valley Academy: Custom WordPress Theme</h1>
+    <figure class="figure">
+      <img src="../images/wwva-sites.png" alt="Walla Walla Valley Academy Website" class="figureImage">
+      <figcaption class="figureCaption">WWVA’s website, exhibited in multiple view sizes.</figcaption>
     </figure>
     <p class="projectDescription">
-      There were lots of things to think about in the realm of presence. Was it ok for someone to hear me if I couldn’t
-      hear them?
-      What about seeing someone’s video when they were talking to a group I wasn’t in? Should we use people’s locations
-      to
-      deduce their actual physical presence in a room? The list went on. In order to start small and fail fast, I
-      crafted
-      up a small component designed to represent a user’s presence.
+      A few years back, a local highschool recognized that they needed to bring their site into the future. They came
+      to me. Meeting with their head of marketing, I gathered the goals of the site and worked up initial sketches. The
+      sketches explored both site structure and content layout. When I start a project like this, I always like to
+      begin by quantifying the site’s content and its usefulness to the viewer. Once I have a good idea of all the
+      content’s purpose, I can then craft up a solution that makes the right content available in the right context and
+      presentation.
     </p>
-    <figure class="image">
-      <img src="../images/presence.png" alt="Thoughts about displaying presence" class="imageBanner">
+    <figure class="figure">
+      <img src="../images/wwva-sketches.png" alt="Site layout sketches" class="figureImage">
+      <figcaption class="figureCaption">Sketches of site structure and page layout.</figcaption>
     </figure>
     <p class="projectDescription">
-      From there it was only natural to begin using these components in a format that seemed familiar: a chat client.
+      From there, I met with the client for revisions & feedback, then proceeded to create digital mockups of the site
+      layouts. This included making a few as-yet-undigitized assets for the client’s use, such as the site logo.
     </p>
-    <figure class="image">
-      <img src="../images/grouping-up.gif" alt="User representations in a chat client window" class="imageLeft">
+    <figure class="figure">
+      <img src="../images/wwva-digitalMockups.jpg" alt="Digital site mockup" class="figureImage">
+      <figcaption class="figureCaption">An example of one of the site mockups, before site construction.</figcaption>
     </figure>
     <p class="projectDescription">
-      This immediately threw us into the deep end, as we considered how basic design principles like alignment and
-      proximity might
-      have implications as to the state of user presence. We began exploring positional interactions, as well as audio
-      and
-      video stream presentation in an internal prototype application.
+      From there, I coded up the mockups as WordPress page templates. Using a base theme structure, I created global
+      styles and page template layouts, and tested on different devices/browsers. I followed up the site construction
+      with deployment and training sessions to make sure the client felt comfortable managing content. It was a hit!
+      Once the site was deployed, the marketing director asked if I could do a photoshoot to get some school specific
+      images for the headers. An afternoon of photography later, the site was ready to be populated with flavors of the
+      school.
     </p>
-    <p class="projectDescription">
-      From this, we learned several more things about how users are attached to their own sense of presence. We learned
-      that people
-      always wanted to be notified when someone “came near.” We learned that <a href="https://medium.com/swivel-app/uis-that-are-too-fast-4bb24b2a6935"
-        target="_blank">sometimes you have to slow things down</a> to make sure users get what they expect.
-    </p>
-    <p class="projectDescription">
-      As we iterated on our product, we found that we actually enjoyed its benefits quite handily. We decided to expand
-      the UI
-      to take advantage of larger screens, since we found we used the app on desktop as much as mobile.
-    </p>
-    <figure class="image">
-      <img src="../images/wide-view.png" alt="Sketches of how to display a larger view" class="imageBanner">
-      <figcaption class="imageCaption">We sketched up mockups of how it might look to scale up both screen size and
-        number
-        of users.</figcaption>
-    </figure>
-    <figure class="image">
-      <img src="../images/multi-layout.png" alt="A mockup of multiple sizes" class="imageBanner">
-      <figcaption class="imageCaption">A prototypal mockup of multiple application window sizes, including a
-        screen-sharing
-        UI.
-      </figcaption>
+    <figure class="figure">
+      <img src="../images/wwva-photo1.jpg" alt="A photo of WWVA life" class="figureImage">
+      <img src="../images/wwva-photo2.jpg" alt="A photo of WWVA life" class="figureImage">
+      <img src="../images/wwva-photo3.jpg" alt="A photo of WWVA life" class="figureImage">
+      <img src="../images/wwva-photo4.jpg" alt="A photo of WWVA life" class="figureImage">
     </figure>
     <p class="projectDescription">
-      We even found there was a need for a <a href="https://medium.com/swivel-app/checking-your-hair-4cdde7e81540"
-        target="_blank">check
-        your hair interface</a>, which allowed the user to be certain of their microphone, camera, and audio states
-      before
-      logging in.
+      Since then, the site has seen growth and revision as client need shifts over time. The site is
+      available at <a href="https://wwva.org" target="_blank">wwva.org</a>.
     </p>
-    <figure class="image">
-      <img src="../images/hair-check.png" alt="A mockup of an interface for letting users check their state" class="imageBanner">
-      </figcaption>
-    </figure>
-    <p class="projectDescription">
-      After several months of prototyping, we released a beta version of Swivel. As part of our slow-release, we
-      arranged a beta
-      introduction presentation at a local coworking space. To test the app, we crafted a group puzzle to be solved
-      using
-      Swivel. As expected, we learned many valuable things, and came away with new ideas.
-    </p>
-    <p class="projectDescription">
-      The development of Swivel continues, and I count myself lucky to have spearheaded much of its functional design
-      in early
-      stages. It’s continued evolving since my involement, but do take a look at its current form: <a href="https://swivel.is"
-        target="_blank">Swivel</a>.
-    </p>
-    <!-- Final product -->
   </section>
 </body>
 
