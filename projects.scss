@@ -26,18 +26,25 @@
   @include type;
   font-size: 0.7rem;
   font-style: italic;
+  text-align: right;
 }
 
-.imageLeft {
-  max-width: 40%;
+.figureLeft {
+  @include left-margin;
+  max-width: 15em;
   float: left;
   margin-right: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
-.imageRight {
-  max-width: 40%;
+.figureRight {
+  @include right-margin;
+  max-width: 15em;
   float: right;
   margin-left: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 .projectList {

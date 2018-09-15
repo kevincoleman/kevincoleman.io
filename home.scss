@@ -1,7 +1,6 @@
 @import "main.scss";
 
 .bio {
-  @include marginalized;
   margin-top: 4em;
   padding-bottom: 4em;
   border-bottom: 1px solid $shadow-color;
@@ -10,23 +9,27 @@
 .bioPhoto {
   border-radius: 50%;
   width: 60vw;
-  margin: 0 10vw 1.5em;
+  margin: 0 20vw 1.5em;
   @media (min-width: $medium) {
+    @include right-margin;
     float: right;
-    margin: 1em;
+    margin-left: 1em;
     width: 30vw;
   }
   @media (min-width: $large) {
+    @include right-margin;
     float: right;
-    margin: 1em;
+    margin-left: 1em;
     width: 25vw;
     max-width: 15em;
   }
 }
 
 .bioTitle {
-  @media (min-width: $small) {
-    text-align: center;
+  text-align: center;
+  @media (min-width: $medium) {
+    @include marginalized;
+    text-align: left;
   }
 }
 
@@ -78,4 +81,20 @@
 
 .portfolioThumbFourFeatheredSparrow {
   background-image: url("../images/portfolioThumb-fourFeatheredSparrow.png");
+}
+
+.portfolioThumbGledeligJul {
+  background-image: url("../images/portfolioThumb-gledeligJul.jpg");
+}
+
+.portfolioThumbHTMLEmails {
+  background-image: url("../images/portfolioThumb-htmlEmails.jpg");
+}
+
+.portfolioThumbAdventistGiving {
+  background-image: url("../images/portfolioThumb-adventistGiving.jpg");
+}
+
+.portfolioThumbWallaWallaPortraitDesign {
+  background-image: url("../images/portfolioThumb-wallawallaPortraitDesign.png");
 }
