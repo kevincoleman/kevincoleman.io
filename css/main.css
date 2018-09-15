@@ -46,6 +46,29 @@ p {
   font-size: 1.1rem;
   line-height: 2.1rem;
   color: #666;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+}
+@media (min-width: 48rem) {
+  p {
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  p {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  p {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    max-width: 48em;
+  }
 }
 
 nav {

@@ -46,6 +46,29 @@ p {
   font-size: 1.1rem;
   line-height: 2.1rem;
   color: #666;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+}
+@media (min-width: 48rem) {
+  p {
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  p {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  p {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    max-width: 48em;
+  }
 }
 
 nav {
@@ -98,38 +121,80 @@ nav {
 .projectTitle {
   margin-left: 10vw;
   margin-right: 10vw;
+  max-width: 80vw;
 }
 @media (min-width: 48rem) {
   .projectTitle {
-    max-width: 45rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .projectTitle {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .projectTitle {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  .projectTitle {
+    max-width: 48em;
   }
 }
 
 .projectDescription {
   margin-left: 10vw;
   margin-right: 10vw;
+  max-width: 80vw;
 }
 @media (min-width: 48rem) {
   .projectDescription {
-    max-width: 45rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .projectDescription {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .projectDescription {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  .projectDescription {
+    max-width: 48em;
   }
 }
 
 .figure {
   margin-left: 10vw;
   margin-right: 10vw;
+  max-width: 80vw;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 @media (min-width: 48rem) {
   .figure {
-    max-width: 45rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .figure {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .figure {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  .figure {
+    max-width: 48em;
   }
 }
 
@@ -144,18 +209,35 @@ nav {
   color: #666;
   font-size: 0.7rem;
   font-style: italic;
+  text-align: right;
 }
 
-.imageLeft {
-  max-width: 40%;
+.figureLeft {
+  margin-left: 10vw;
+  max-width: 15em;
   float: left;
   margin-right: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+@media (min-width: 48rem) {
+  .figureLeft {
+    margin-left: 20vw;
+  }
 }
 
-.imageRight {
-  max-width: 40%;
+.figureRight {
+  margin-right: 10vw;
+  max-width: 15em;
   float: right;
   margin-left: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+@media (min-width: 48rem) {
+  .figureRight {
+    margin-right: 20vw;
+  }
 }
 
 .projectList {
@@ -165,26 +247,54 @@ nav {
   color: #666;
   margin-left: 10vw;
   margin-right: 10vw;
+  max-width: 80vw;
 }
 @media (min-width: 48rem) {
   .projectList {
-    max-width: 45rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .projectList {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  .projectList {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  .projectList {
+    max-width: 48em;
   }
 }
 
 iframe.clock {
   margin-left: 10vw;
   margin-right: 10vw;
+  max-width: 80vw;
   width: 80vw;
   display: none;
 }
 @media (min-width: 48rem) {
   iframe.clock {
-    max-width: 45rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  iframe.clock {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) {
+  iframe.clock {
+    max-width: 60vw;
+  }
+}
+@media (min-width: 60rem) {
+  iframe.clock {
+    max-width: 48em;
   }
 }
 @media (min-width: 48rem) {
