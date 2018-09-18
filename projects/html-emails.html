@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>kevincoleman.io - Gledelig Jul</title>
+  <title>kevincoleman.io - HTML Emails</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../css/projects.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,118 +22,60 @@
     </nav>
   </header>
   <section class="project">
-    <h1 class="projectTitle">Swivel: Developing a new Remote Office Experience</h1>
-    <!-- Image -->
-    <p class="projectDescription">A few years back, I found myself wanting a lightweight tool that would facilitate
-      office
-      conversation with a low barrier to entry. My initial thought was that taking the time to call someone via Zoom or
-      Hangouts
-      was just too formal. Placing a call takes more effort than just speaking, and gives your coworker a chance to
-      decline.
-      There’s no overhearing office chatter with calls that are so planned and boring. “Wouldn’t it be great if I could
-      just
-      hold a keyboard shortcut and talk through my coworker’s office speakers?” I thought.
-    </p>
+    <h1 class="projectTitle">HTML Email: Design, Development, Testing</h1>
     <figure class="figure">
-      <img src="../images/remote-communication.gif" alt="Remote Communication" class="figureImage">
-      <figcaption class="figureCaption">I was done feeling like the lone wolf, only catching little bits of office
-        culture.</figcaption>
-    </figure>
-    <p class="projectDescription">If we could maintain video calls for long periods of time to pair-program, why
-      couldn’t
-      we just always have a connection to the whole team open, awaiting a quick key-press to engage? Shoot—why couldn’t
-      we
-      even emulate an open floor plan where <em>the default</em> is to overhear what’s going on? I worked from coffee
-      shops;
-      coworking spaces; open offices. I gleaned thoughts about what it means to be present in a space:
-    </p>
-    <ul class="projectList">
-      <li>Presence is passive</li>
-      <li>Presence always implies proximity (which affects volume)</li>
-      <li>Presence is observable by all parties</li>
-      <li>...</li>
-    </ul>
-    <p class="projectDescription">
-      From these thoughts, I began sketching ideas for how presence, proximity, and volume might be represented
-      naturally to users.
-    </p>
-    <figure class="figure">
-      <img src="../images/notes.png" alt="Brainstorming notes" class="figureImage">
+      <img src="../images/htmlEmails-splash.jpg" alt="HTML email layouts" class="figureImage">
+      <figcaption class="figureCaption">Four custom-designed HTML email layouts.</figcaption>
     </figure>
     <p class="projectDescription">
-      There were lots of things to think about in the realm of presence. Was it ok for someone to hear me if I couldn’t
-      hear them?
-      What about seeing someone’s video when they were talking to a group I wasn’t in? Should we use people’s locations
-      to
-      deduce their actual physical presence in a room? The list went on. In order to start small and fail fast, I
-      crafted
-      up a small component designed to represent a user’s presence.
-    </p>
-    <figure class="figure">
-      <img src="../images/presence.png" alt="Thoughts about displaying presence" class="figureImage">
-    </figure>
-    <p class="projectDescription">
-      From there it was only natural to begin using these components in a format that seemed familiar: a chat client.
+      I once worked for a stellar email marketing firm called <a href="https://premiercellar.com" target="_blank">Premier
+        Cellar</a>. While there, I wore many hats to the company’s benefit. My path looked something like this:
+      <ol class="flowDiagram">
+        <li class="flowDiagramItem">Photo editor</li> <span>➡</span>
+        <li class="flowDiagramItem">Designer</li> <span>➡</span>
+        <li class="flowDiagramItem">Email Developer</li> <span>➡</span>
+        <li class="flowDiagramItem">Integrations developer</li>
+      </ol>
     </p>
     <figure class="figure figureLeft">
-      <img src="../images/grouping-up.gif" alt="User representations in a chat client window" class="figureImage">
+      <img src="../images/htmlEmails-bottles.jpg" alt="Wine bottles" class="figureImage">
     </figure>
     <p class="projectDescription">
-      This immediately threw us into the deep end, as we considered how basic design principles like alignment and
-      proximity might
-      have implications as to the state of user presence. We began exploring positional interactions, as well as audio
-      and
-      video stream presentation in an internal prototype application.
+      As a photo editor, I was responsible for the treatment and standardization of a large quantity of wine bottle
+      glam shots. I spent time fine-tuning my graphic editing skills as well as crafting new workflow improvements to
+      speed up production.
     </p>
     <p class="projectDescription">
-      From this, we learned several more things about how users are attached to their own sense of presence. We learned
-      that people
-      always wanted to be notified when someone “came near.” We learned that <a href="https://medium.com/swivel-app/uis-that-are-too-fast-4bb24b2a6935"
-        target="_blank">sometimes you have to slow things down</a> to make sure users get what they expect.
+      After organizing our bottle shot library and getting us caught up on editing, I moved into designing emails. I
+      designed hundreds of custom layouts, tailoring them to the clients’ styles and particular campaigns (holiday,
+      wine club, &c.). This was also an opportunity to test and learn what readers found usable, as I was able to
+      analyze designs by A/B testing and seeing large-sample conversion data.
     </p>
     <p class="projectDescription">
-      As we iterated on our product, we found that we actually enjoyed its benefits quite handily. We decided to expand
-      the UI
-      to take advantage of larger screens, since we found we used the app on desktop as much as mobile.
+      My next adventure in creating custom campaigns was to develop them in HTML and CSS. This was no small task. HTML
+      emails play by their own set of standards—most of which are still from about 2003. Using cross-platform testing
+      tools, I learned to creatively solve display issues to optimize campaign performance.
     </p>
     <figure class="figure">
-      <img src="../images/wide-view.png" alt="Sketches of how to display a larger view" class="figureImage">
-      <figcaption class="figureCaption">We sketched up mockups of how it might look to scale up both screen size and
-        number
-        of users.</figcaption>
-    </figure>
-    <figure class="figure">
-      <img src="../images/multi-layout.png" alt="A mockup of multiple sizes" class="figureImage">
-      <figcaption class="figureCaption">A prototypal mockup of multiple application window sizes, including a
-        screen-sharing
-        UI.
-      </figcaption>
+      <img src="../images/htmlEmails-development.jpg" alt="Developing & testing emails" class="figureImage">
     </figure>
     <p class="projectDescription">
-      We even found there was a need for a <a href="https://medium.com/swivel-app/checking-your-hair-4cdde7e81540"
-        target="_blank">check
-        your hair interface</a>, which allowed the user to be certain of their microphone, camera, and audio states
-      before
-      logging in.
+      My final role while at Premier Cellar was one of a data integrations developer. We recognized that a large
+      portion of our work for each campaign was in recipient list management. In order to improve our records, I taught
+      myself how to write an integration script that could regularly pull customer data from client CRMs into our email
+      sending platform. This was my first big venture into server-side, API development.
     </p>
-    <figure class="figure">
-      <img src="../images/hair-check.png" alt="A mockup of an interface for letting users check their state" class="figureImage">
-      </figcaption>
-    </figure>
+    <ol class="flowDiagram">
+      <li class="flowDiagramItem">Client CRM API</li> <span>➡</span>
+      <li class="flowDiagramItem">In-house versioned stores</li> <span>➡</span>
+      <li class="flowDiagramItem">Reformatting</li> <span>➡</span>
+      <li class="flowDiagramItem">ESP Records</li>
+    </ol>
     <p class="projectDescription">
-      After several months of prototyping, we released a beta version of Swivel. As part of our slow-release, we
-      arranged a beta
-      introduction presentation at a local coworking space. To test the app, we crafted a group puzzle to be solved
-      using
-      Swivel. As expected, we learned many valuable things, and came away with new ideas.
+      While at Premier Cellar, I learned volumes about how to introduce efficiencies into workflows. From authoring
+      development snippet libraries and organizing campaign assets to educating coworkers on procedure and training
+      clients, Premier Cellar gave me a chance to get my feet wet in the world of rapid development.
     </p>
-    <p class="projectDescription">
-      The development of Swivel continues, and I count myself lucky to have spearheaded much of its functional design
-      in early
-      stages. It’s continued evolving since my involement, but do take a look at its current form: <a href="https://swivel.is"
-        target="_blank">Swivel</a>.
-    </p>
-    <!-- Final product -->
   </section>
 </body>
 

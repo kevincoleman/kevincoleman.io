@@ -350,6 +350,82 @@ nav {
   }
 }
 
+.flowDiagram {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  color: #666;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 48rem) {
+  .flowDiagram {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 60rem) {
+  .flowDiagram {
+    margin-left: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .flowDiagram {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .flowDiagram {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .flowDiagram {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 60rem) {
+  .flowDiagram {
+    max-width: 48rem;
+  }
+}
+@media (min-width: 48rem) {
+  .flowDiagram {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.flowDiagram span {
+  transform: rotate(90deg);
+}
+@media (min-width: 48rem) {
+  .flowDiagram span {
+    transform: none;
+  }
+}
+
+.flowDiagramItem {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+.flowDiagramItem:first-child {
+  margin-left: 0;
+}
+.flowDiagramItem:last-child {
+  margin-right: 0;
+}
+
 iframe.clock {
   margin-left: 10vw;
   margin-right: 10vw;
