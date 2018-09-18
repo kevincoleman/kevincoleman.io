@@ -52,7 +52,7 @@ p {
 }
 @media (min-width: 48rem) {
   p {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -72,7 +72,7 @@ p {
 }
 @media (min-width: 48rem) {
   p {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {

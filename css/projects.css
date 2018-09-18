@@ -52,7 +52,7 @@ p {
 }
 @media (min-width: 48rem) {
   p {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -72,7 +72,7 @@ p {
 }
 @media (min-width: 48rem) {
   p {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {
@@ -135,7 +135,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .projectTitle {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -155,7 +155,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .projectTitle {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {
@@ -171,7 +171,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .projectDescription {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -191,7 +191,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .projectDescription {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {
@@ -209,7 +209,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .figure {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -229,7 +229,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .figure {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {
@@ -262,7 +262,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .figureLeft {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -321,7 +321,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .projectList {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -341,7 +341,7 @@ nav {
 }
 @media (min-width: 48rem) {
   .projectList {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {
@@ -359,7 +359,7 @@ iframe.clock {
 }
 @media (min-width: 48rem) {
   iframe.clock {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 60rem) {
@@ -379,7 +379,7 @@ iframe.clock {
 }
 @media (min-width: 48rem) {
   iframe.clock {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media (min-width: 60rem) {
