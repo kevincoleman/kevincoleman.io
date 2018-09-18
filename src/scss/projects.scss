@@ -35,7 +35,7 @@
   float: left;
   margin-right: 1em;
   margin-top: 0.6em;
-  margin-bottom: 0.6em;
+  margin-bottom: 0;
   @media (min-width: $medium) {
     max-width: 16em;
   }
@@ -50,7 +50,7 @@
   float: right;
   margin-left: 1em;
   margin-top: 0.6em;
-  margin-bottom: 0.6em;
+  margin-bottom: 0;
   @media (min-width: $medium) {
     max-width: 16em;
   }
