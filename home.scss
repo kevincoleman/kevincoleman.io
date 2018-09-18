@@ -21,7 +21,10 @@
     float: right;
     margin-left: 1em;
     width: 25vw;
-    max-width: 15em;
+    max-width: 11em;
+  }
+  @media (min-width: $yuge) {
+    margin-right: calc((100vw - 48rem) / 2);
   }
 }
 

@@ -31,11 +31,17 @@
 
 .figureLeft {
   @include left-margin;
-  max-width: 15em;
+  max-width: 30vw;
   float: left;
   margin-right: 1em;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
+  @media (min-width: $medium) {
+    max-width: 16em;
+  }
+  @media (min-width: $yuge) {
+    margin-left: calc((100vw - 48rem) / 2);
+  }
 }
 
 .figureRight {
@@ -45,6 +51,12 @@
   margin-left: 1em;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
+  @media (min-width: $medium) {
+    max-width: 16em;
+  }
+  @media (min-width: $yuge) {
+    margin-right: calc((100vw - 48rem) / 2);
+  }
 }
 
 .projectList {

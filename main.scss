@@ -2,7 +2,7 @@
 
 $yuge: 60rem;
 $large: 48rem;
-$medium: 28rem;
+$medium: 32rem;
 $small: 18em;
 
 @mixin marginalized {
@@ -13,7 +13,7 @@ $small: 18em;
     max-width: 60vw;
   }
   @media (min-width: $yuge) {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -22,12 +22,18 @@ $small: 18em;
   @media (min-width: $large) {
     margin-left: 20vw;
   }
+  @media (min-width: $yuge) {
+    margin-left: auto;
+  }
 }
 
 @mixin right-margin {
   margin-right: 10vw;
   @media (min-width: $large) {
     margin-right: 20vw;
+  }
+  @media (min-width: $yuge) {
+    margin-right: auto;
   }
 }
 
