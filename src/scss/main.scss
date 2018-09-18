@@ -5,6 +5,10 @@ $large: 48rem;
 $medium: 32rem;
 $small: 18em;
 
+$background-color: #fff;
+$shadow-color: rgba(0, 0, 0, 0.07);
+$link-color: #4ce0b3;
+
 @mixin marginalized {
   @include left-margin;
   @include right-margin;
@@ -36,10 +40,6 @@ $small: 18em;
     margin-right: auto;
   }
 }
-
-$background-color: #fff;
-$shadow-color: rgba(0, 0, 0, 0.07);
-$link-color: #4ce0b3;
 
 @mixin type {
   font-family: "Noto Sans", sans-serif;

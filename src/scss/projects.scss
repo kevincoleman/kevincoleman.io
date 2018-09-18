@@ -64,6 +64,44 @@
   @include marginalized;
 }
 
+.flowDiagram {
+  @include type;
+  @include marginalized;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid $shadow-color;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: $large) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  & span {
+    transform: rotate(90deg);
+    @media (min-width: $large) {
+      transform: none;
+    }
+  }
+}
+
+.flowDiagramItem {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid $shadow-color;
+  box-shadow: 0 4px 10px $shadow-color;
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
 iframe.clock {
   @include marginalized;
   width: 80vw;
