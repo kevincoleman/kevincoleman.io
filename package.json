@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "sass --watch  ./:./public/css"
+    "watch": "sass --watch  ./src/scss:./public/css"
   },
   "author": "Kevin Coleman",
   "license": "ISC",
