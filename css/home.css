@@ -55,9 +55,19 @@ p {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  p {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   p {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -67,7 +77,7 @@ p {
 }
 @media (min-width: 60rem) {
   p {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -125,7 +135,7 @@ nav {
   width: 60vw;
   margin: 0 20vw 1.5em;
 }
-@media (min-width: 28rem) {
+@media (min-width: 32rem) {
   .bioPhoto {
     margin-right: 10vw;
     float: right;
@@ -133,9 +143,14 @@ nav {
     width: 30vw;
   }
 }
-@media (min-width: 28rem) and (min-width: 48rem) {
+@media (min-width: 32rem) and (min-width: 48rem) {
   .bioPhoto {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioPhoto {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -144,7 +159,7 @@ nav {
     float: right;
     margin-left: 1em;
     width: 25vw;
-    max-width: 15em;
+    max-width: 11em;
   }
 }
 @media (min-width: 48rem) and (min-width: 48rem) {
@@ -152,11 +167,21 @@ nav {
     margin-right: 20vw;
   }
 }
+@media (min-width: 48rem) and (min-width: 60rem) {
+  .bioPhoto {
+    margin-right: auto;
+  }
+}
+@media (min-width: 60rem) {
+  .bioPhoto {
+    margin-right: calc((100vw - 48rem) / 2);
+  }
+}
 
 .bioTitle {
   text-align: center;
 }
-@media (min-width: 28rem) {
+@media (min-width: 32rem) {
   .bioTitle {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -164,24 +189,34 @@ nav {
     text-align: left;
   }
 }
-@media (min-width: 28rem) and (min-width: 48rem) {
+@media (min-width: 32rem) and (min-width: 48rem) {
   .bioTitle {
     margin-left: 20vw;
   }
 }
-@media (min-width: 28rem) and (min-width: 48rem) {
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioTitle {
+    margin-left: auto;
+  }
+}
+@media (min-width: 32rem) and (min-width: 48rem) {
   .bioTitle {
     margin-right: 20vw;
   }
 }
-@media (min-width: 28rem) and (min-width: 48rem) {
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioTitle {
+    margin-right: auto;
+  }
+}
+@media (min-width: 32rem) and (min-width: 48rem) {
   .bioTitle {
     max-width: 60vw;
   }
 }
-@media (min-width: 28rem) and (min-width: 60rem) {
+@media (min-width: 32rem) and (min-width: 60rem) {
   .bioTitle {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -198,9 +233,19 @@ nav {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  .portfolio {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   .portfolio {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .portfolio {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -210,7 +255,7 @@ nav {
 }
 @media (min-width: 60rem) {
   .portfolio {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 

@@ -55,9 +55,19 @@ p {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  p {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   p {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -67,7 +77,7 @@ p {
 }
 @media (min-width: 60rem) {
   p {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -128,9 +138,19 @@ nav {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  .projectTitle {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   .projectTitle {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .projectTitle {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -140,7 +160,7 @@ nav {
 }
 @media (min-width: 60rem) {
   .projectTitle {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -154,9 +174,19 @@ nav {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  .projectDescription {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   .projectDescription {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .projectDescription {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -166,7 +196,7 @@ nav {
 }
 @media (min-width: 60rem) {
   .projectDescription {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -182,9 +212,19 @@ nav {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  .figure {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   .figure {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .figure {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -194,7 +234,7 @@ nav {
 }
 @media (min-width: 60rem) {
   .figure {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -214,7 +254,7 @@ nav {
 
 .figureLeft {
   margin-left: 10vw;
-  max-width: 15em;
+  max-width: 30vw;
   float: left;
   margin-right: 1em;
   margin-top: 0.6em;
@@ -223,6 +263,21 @@ nav {
 @media (min-width: 48rem) {
   .figureLeft {
     margin-left: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .figureLeft {
+    margin-left: auto;
+  }
+}
+@media (min-width: 32rem) {
+  .figureLeft {
+    max-width: 16em;
+  }
+}
+@media (min-width: 60rem) {
+  .figureLeft {
+    margin-left: calc((100vw - 48rem) / 2);
   }
 }
 
@@ -237,6 +292,21 @@ nav {
 @media (min-width: 48rem) {
   .figureRight {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .figureRight {
+    margin-right: auto;
+  }
+}
+@media (min-width: 32rem) {
+  .figureRight {
+    max-width: 16em;
+  }
+}
+@media (min-width: 60rem) {
+  .figureRight {
+    margin-right: calc((100vw - 48rem) / 2);
   }
 }
 
@@ -254,9 +324,19 @@ nav {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  .projectList {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   .projectList {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .projectList {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -266,7 +346,7 @@ nav {
 }
 @media (min-width: 60rem) {
   .projectList {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 
@@ -282,9 +362,19 @@ iframe.clock {
     margin-left: 20vw;
   }
 }
+@media (min-width: 60rem) {
+  iframe.clock {
+    margin-left: auto;
+  }
+}
 @media (min-width: 48rem) {
   iframe.clock {
     margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  iframe.clock {
+    margin-right: auto;
   }
 }
 @media (min-width: 48rem) {
@@ -294,7 +384,7 @@ iframe.clock {
 }
 @media (min-width: 60rem) {
   iframe.clock {
-    max-width: 48em;
+    max-width: 48rem;
   }
 }
 @media (min-width: 48rem) {
@@ -304,13 +394,13 @@ iframe.clock {
     margin-top: 3em;
   }
 }
-@media (min-width: 28rem) and (max-width: 48rem) {
+@media (min-width: 32rem) and (max-width: 48rem) {
   iframe.clock.medium {
     display: block;
     height: 10em;
   }
 }
-@media (max-width: 28rem) {
+@media (max-width: 32rem) {
   iframe.clock.small {
     display: block;
     height: 9em;
