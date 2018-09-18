@@ -10,7 +10,7 @@ $small: 18em;
   @include right-margin;
   max-width: 80vw;
   @media (min-width: $large) {
-    max-width: 60vw;
+    max-width: 70vw;
   }
   @media (min-width: $yuge) {
     max-width: 48rem;
@@ -20,7 +20,7 @@ $small: 18em;
 @mixin left-margin {
   margin-left: 10vw;
   @media (min-width: $large) {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
   @media (min-width: $yuge) {
     margin-left: auto;

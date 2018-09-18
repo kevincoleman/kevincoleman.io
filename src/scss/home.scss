@@ -45,20 +45,25 @@
 
 .portfolioThumb {
   width: 100%;
-  height: 20vw;
+  height: 11rem;
+  max-height: 12rem;
+  margin-bottom: 2rem;
   box-shadow: inset 0 0 20px 10px $shadow-color;
-  background-color: #eee;
-  border-radius: 10vw;
+  border-radius: 5.5rem;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-  &:nth-child(odd) {
-    grid-column: 1/2;
-  }
-  &:nth-child(even) {
-    grid-column: 2/3;
-    margin-top: 13vw;
-    margin-bottom: -11vw;
+  @media (min-width: $medium) {
+    height: 20vw;
+    border-radius: 10vw;
+    &:nth-child(odd) {
+      grid-column: 1/2;
+    }
+    &:nth-child(even) {
+      grid-column: 2/3;
+      position: relative;
+      top: 50%;
+    }
   }
 }
 
