@@ -102,6 +102,11 @@
   }
 }
 
+.backLink {
+  @include type;
+  @include marginalized;
+}
+
 iframe.clock {
   @include marginalized;
   width: 80vw;
