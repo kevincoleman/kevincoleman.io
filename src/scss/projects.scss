@@ -31,11 +31,18 @@
 
 .figureLeft {
   @include left-margin;
-  max-width: 30vw;
+  max-width: 35vw;
   float: left;
   margin-right: 1em;
   margin-top: 0.6em;
   margin-bottom: 0;
+  @media (max-width: $small) {
+    max-width: 65vw;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @media (min-width: $medium) {
     max-width: 16em;
   }
@@ -46,11 +53,18 @@
 
 .figureRight {
   @include right-margin;
-  max-width: 15em;
+  max-width: 35vw;
   float: right;
   margin-left: 1em;
   margin-top: 0.6em;
   margin-bottom: 0;
+  @media (max-width: $small) {
+    max-width: 65vw;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @media (min-width: $medium) {
     max-width: 16em;
   }
