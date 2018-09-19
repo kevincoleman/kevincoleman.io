@@ -426,6 +426,46 @@ nav {
   margin-right: 0;
 }
 
+.backLink {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  color: #666;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+}
+@media (min-width: 48rem) {
+  .backLink {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 60rem) {
+  .backLink {
+    margin-left: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .backLink {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .backLink {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .backLink {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 60rem) {
+  .backLink {
+    max-width: 48rem;
+  }
+}
+
 iframe.clock {
   margin-left: 10vw;
   margin-right: 10vw;
