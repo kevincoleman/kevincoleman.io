@@ -1,0 +1,16 @@
+{
+  "short_name": "Kevin Coleman",
+  "name": "Kevin Coleman.io",
+  "icons": [
+    {
+      "src": "/images/icon.png",
+      "type": "images/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": "/",
+  "background-color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}

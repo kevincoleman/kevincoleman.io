@@ -1,6 +1,6 @@
 node_modules
 *.code-workspace
 *.DS_Store
-source-images
-CNAME
+raw
+public
 
