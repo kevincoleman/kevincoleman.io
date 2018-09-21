@@ -7,12 +7,14 @@
     "build:sass": "sass ./src/scss:./public/css",
     "build:static": "copyfiles -e '**/*.scss' -u 1 src/**/* src/* public",
     "build": "npm run build:sass & npm run build:static",
-    "watch": "watch 'npm run build'"
+    "watch": "watch 'npm run build'",
+    "deploy": "gh-pages -d public"
   },
   "author": "Kevin Coleman",
   "license": "ISC",
   "dependencies": {
     "copyfiles": "^2.1.0",
+    "gh-pages": "^2.0.0",
     "sass": "^1.13.4",
     "watch": "^1.0.2"
   }
