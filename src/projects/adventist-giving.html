@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="Description" content="Kevin Coleman’s Portfolio">
   <link rel="manifest" href="../manifest.json">
   <link rel="stylesheet" href="../css/projects.css">
   <link rel="apple-touch-icon" sizes="128x128" href="../images/icon.png">
@@ -15,15 +17,23 @@
 
 <body>
   <header>
-    <h1 class="headerTitle"><a href="/">
-        &lt;<span class="headerName">&nbsp;kevincoleman.io</span>
-      </a></h1>
-    <nav>
-      <a target="_blank" href="https://twitter.com/kevincolemanio" class="iconTwitter icon"></a>
-      <a target="_blank" href="https://github.com/kevincoleman" class="iconGithub icon"></a>
-      <a target="_blank" href="https://dribbble.com/kevincoleman" class="iconDribbble icon "></a>
-      <a href="mailto:kevin.n.coleman@gmail.com" class="iconEmail icon "></a>
-      <a target="_blank" href="https://www.linkedin.com/in/kevincolemanio/" class="iconLinkedin icon"></a>
+    <h1 class="headerTitle"><a href="index.html">&lt;<span class="headerName">&nbsp;kevincoleman.io</span></a></h1>
+    <nav class="headerMenu">
+      <a target="_blank" href="https://twitter.com/kevincolemanio" rel="noopener" class="headerMenuLink">
+        <img src="../icons/twitter.svg" alt="Twitter" class="icon">
+      </a>
+      <a target="_blank" href="https://github.com/kevincoleman" rel="noopener" class="headerMenuLink">
+        <img src="../icons/github.svg" alt="GitHub" class="icon">
+      </a>
+      <a target="_blank" href="https://dribbble.com/kevincoleman" rel="noopener" class="headerMenuLink">
+        <img src="../icons/dribbble.svg" alt="Dribbble" class="icon">
+      </a>
+      <a href="mailto:kevin.n.coleman@gmail.com" rel="noopener" class="headerMenuLink">
+        <img src="../icons/email.svg" alt="Email" class="icon">
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/kevincolemanio/" rel="noopener" class="headerMenuLink">
+        <img src="../icons/linkedin.svg" alt="LinkedIn" class="icon">
+      </a>
     </nav>
   </header>
   <section class="project">
@@ -33,14 +43,14 @@
       <figcaption class="figureCaption">The pew-style envelope for helping users navigate their donation experience.</figcaption>
     </figure>
     <p class="projectDescription">
-      A few years back I had the pleasure of working with the crew at <a href="https://k3.is/" target="_blank">K3</a>
+      A few years back I had the pleasure of working with the crew at <a href="https://k3.is/" rel="noopener" target="_blank">K3</a>
       on a project for Adventist Giving. The goal of the project was to create a site that facilitated easy donations
       from church-goers to their respective churches (or churches they visited). The target user group was all of North
       America, but the site needed to be functional world-wide.
     </p>
     <figure class="figure">
       <img src="../images/adventistGiving-splash.jpg" alt="Donation Envelope website layout" class="figureImage">
-      <figcaption class="figureCaption">The landing page at <a href="https://adventistgiving.org" target="_blank">adventistgiving.org</a>.</figcaption>
+      <figcaption class="figureCaption">The landing page at <a href="https://adventistgiving.org" rel="noopener" target="_blank">adventistgiving.org</a>.</figcaption>
     </figure>
     <p class="projectDescription">
       To build the site, we leveraged the robust architecture of Google’s Angular 2. We built the platform to handle
@@ -72,8 +82,8 @@
       and the widow giving her last coin—both signs of great sacrifice.
     </p>
     <figure class="figure">
-      <a href="https://adventistgiving.org" target="_blank"><img src="../images/adventistGiving-logo.png" alt="Adventist Giving hand logo"
-          class="figureImage"></a>
+      <a href="https://adventistgiving.org" rel="noopener" target="_blank"><img src="../images/adventistGiving-logo.png"
+          alt="Adventist Giving hand logo" class="figureImage"></a>
     </figure>
     <nav class="backLink">
       <a href="/">&lt; Back to Projects</a>
