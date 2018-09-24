@@ -81,13 +81,19 @@ p {
   }
 }
 
-nav {
+.headerTitle {
+  padding-right: 2em;
+}
+
+.headerMenu {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.headerTitle {
-  padding-right: 2em;
+.headerMenuLink {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
 }
 
 @media (max-width: 48rem) {
@@ -96,32 +102,9 @@ nav {
   }
 }
 .icon {
-  display: inline-block;
   width: 2rem;
   height: 2rem;
   margin: 0.5rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.iconLinkedin {
-  background-image: url("../icons/linkedin.svg");
-}
-
-.iconEmail {
-  background-image: url("../icons/email.svg");
-}
-
-.iconGithub {
-  background-image: url("../icons/github.svg");
-}
-
-.iconDribbble {
-  background-image: url("../icons/dribbble.svg");
-}
-
-.iconTwitter {
-  background-image: url("../icons/twitter.svg");
 }
 
 .bio {
