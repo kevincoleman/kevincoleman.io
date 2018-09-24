@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build:sass": "sass ./src/scss:./public/css",
+    "watch:sass": "sass --watch ./src/scss:./public/css",
     "build:static": "copyfiles -e '**/*.scss' -u 1 src/**/* src/* public",
-    "build": "npm run build:sass & npm run build:static",
-    "watch": "watch 'npm run build'",
+    "build": "npm run build:static & npm run build:sass",
+    "watch": "watch 'npm run build:static' & npm run watch:sass",
     "deploy": "gh-pages -d public"
   },
   "author": "Kevin Coleman",
