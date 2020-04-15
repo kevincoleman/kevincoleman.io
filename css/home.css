@@ -215,6 +215,7 @@ p {
   display: grid;
   padding-top: 4em;
   padding-bottom: 10rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 @media (min-width: 48rem) {
   .portfolio {
@@ -306,6 +307,48 @@ p {
 
 .portfolioThumbWallaWallaPortraitDesign {
   background-image: url("../images/portfolioThumb-wallaWallaPortraitDesign.jpg");
+}
+
+.contact {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+  padding-top: 2em;
+  padding-bottom: 6em;
+}
+@media (min-width: 48rem) {
+  .contact {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 60rem) {
+  .contact {
+    margin-left: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .contact {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .contact {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .contact {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 60rem) {
+  .contact {
+    max-width: 48rem;
+  }
+}
+.contact h1 {
+  color: #444444;
+  text-align: center;
 }
 
 /*# sourceMappingURL=home.css.map */
