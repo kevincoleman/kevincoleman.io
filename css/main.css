@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400;1,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400;1,600&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text&display=swap");
 body,
 html {
   box-sizing: border-box;
@@ -21,7 +21,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #534b3c;
+  color: #2302b9;
 }
 
 h1,
@@ -34,10 +34,9 @@ h6 {
   font-size: 1.1rem;
   line-height: 2.1rem;
   color: #444444;
-  color: #534b3c;
-  font-family: "Playfair Display";
+  color: #2302b9;
+  font-family: "DM Serif Display";
   line-height: 1.3em;
-  font-weight: 600;
 }
 
 h1 {
@@ -86,7 +85,7 @@ p {
 
 .headerTitle {
   padding-right: 2em;
-  padding-bottom: 0.1em;
+  font-size: 1.7em;
 }
 
 .headerMenu {
@@ -106,10 +105,10 @@ p {
   }
 }
 .icon {
-  width: 2rem;
-  height: 2rem;
-  margin: 0.5rem;
-  filter: invert(25%) sepia(24%) saturate(397%) hue-rotate(1deg) brightness(102%) contrast(89%);
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 0.8rem;
+  filter: invert(14%) sepia(78%) saturate(5758%) hue-rotate(253deg) brightness(68%) contrast(129%);
 }
 
 /*# sourceMappingURL=main.css.map */
