@@ -1,5 +1,6 @@
 {
   "name": "web-portfolio",
+  "repository": "git@github.com:kevincoleman/kevincoleman.io.git",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,9 +15,9 @@
   "author": "Kevin Coleman",
   "license": "ISC",
   "dependencies": {
-    "copyfiles": "^2.1.0",
+    "copyfiles": "^2.2.0",
     "gh-pages": "^2.0.0",
-    "sass": "^1.13.4",
+    "sass": "^1.26.3",
     "watch": "^1.0.2"
   }
 }
