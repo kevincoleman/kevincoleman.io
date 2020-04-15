@@ -42,6 +42,7 @@
   display: grid;
   padding-top: 4em;
   padding-bottom: 10rem;
+  border-bottom: 1px solid $shadow-color;
 }
 
 .portfolioThumb {
@@ -103,4 +104,15 @@
 
 .portfolioThumbWallaWallaPortraitDesign {
   background-image: url("../images/portfolioThumb-wallaWallaPortraitDesign.jpg");
+}
+
+.contact {
+  @include marginalized;
+  padding-top: 2em;
+  padding-bottom: 6em;
+
+  h1 {
+    color: $text-color;
+    text-align: center;
+  }
 }
