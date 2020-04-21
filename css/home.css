@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400;1,600&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text&display=swap");
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+}
+
+a {
+  text-decoration: none;
+  color: #2302b9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  color: #444444;
+  color: #2302b9;
+  font-family: "DM Serif Display";
+  line-height: 1.3em;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  color: #444444;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+}
+@media (min-width: 48rem) {
+  p {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    margin-left: auto;
+  }
+}
+@media (min-width: 48rem) {
+  p {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  p {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 60rem) {
+  p {
+    max-width: 48rem;
+  }
+}
+
+.headerTitle {
+  padding-right: 2em;
+  font-size: 1.7em;
+}
+
+.headerMenu {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.headerMenuLink {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+}
+
+@media (max-width: 48rem) {
+  .headerName {
+    display: none;
+  }
+}
+.icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 0.8rem;
+  filter: invert(14%) sepia(78%) saturate(5758%) hue-rotate(253deg) brightness(68%) contrast(129%);
+}
+
+.bio {
+  margin-top: 4em;
+  padding-bottom: 4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.bioPhoto {
+  border-radius: 50%;
+  width: 60vw;
+  margin: 0 20vw 1.5em;
+}
+@media (min-width: 32rem) {
+  .bioPhoto {
+    margin-right: 10vw;
+    float: right;
+    margin-left: 1em;
+    width: 30vw;
+  }
+}
+@media (min-width: 32rem) and (min-width: 48rem) {
+  .bioPhoto {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioPhoto {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .bioPhoto {
+    margin-right: 10vw;
+    float: right;
+    margin-left: 1em;
+    width: 25vw;
+    max-width: 11em;
+  }
+}
+@media (min-width: 48rem) and (min-width: 48rem) {
+  .bioPhoto {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 48rem) and (min-width: 60rem) {
+  .bioPhoto {
+    margin-right: auto;
+  }
+}
+@media (min-width: 60rem) {
+  .bioPhoto {
+    margin-right: calc((100vw - 48rem) / 2);
+    margin-top: -4em;
+  }
+}
+
+.bioTitle {
+  text-align: center;
+}
+@media (min-width: 32rem) {
+  .bioTitle {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    max-width: 80vw;
+    text-align: left;
+  }
+}
+@media (min-width: 32rem) and (min-width: 48rem) {
+  .bioTitle {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioTitle {
+    margin-left: auto;
+  }
+}
+@media (min-width: 32rem) and (min-width: 48rem) {
+  .bioTitle {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioTitle {
+    margin-right: auto;
+  }
+}
+@media (min-width: 32rem) and (min-width: 48rem) {
+  .bioTitle {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 32rem) and (min-width: 60rem) {
+  .bioTitle {
+    max-width: 48rem;
+  }
+}
+
+.portfolio {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+  display: grid;
+  padding-top: 4em;
+  padding-bottom: 10rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+@media (min-width: 48rem) {
+  .portfolio {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 60rem) {
+  .portfolio {
+    margin-left: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .portfolio {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .portfolio {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .portfolio {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 60rem) {
+  .portfolio {
+    max-width: 48rem;
+  }
+}
+
+.portfolioThumb {
+  width: 100%;
+  height: 12rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 6rem;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+@media (min-width: 32rem) {
+  .portfolioThumb:nth-child(odd) {
+    grid-column: 1/2;
+  }
+  .portfolioThumb:nth-child(even) {
+    grid-column: 2/3;
+    position: relative;
+    top: 7rem;
+  }
+}
+
+.portfolioThumbSomethingGood {
+  background-image: url("../images/portfolioThumb-somethingGood.png");
+}
+
+.portfolioThumbEverythingNewIsOld {
+  background-image: url("../images/portfolioThumb-everythingNewIsOld.jpg");
+}
+
+.portfolioThumbSwivel {
+  background-image: url("../images/portfolioThumb-swivel.png");
+}
+
+.portfolioThumbThompsonFamilyAcupuncture {
+  background-image: url("../images/portfolioThumb-thompsonFamilyAcupuncture.jpg");
+}
+
+.portfolioThumbWWVA {
+  background-image: url("../images/portfolioThumb-wwva.png");
+}
+
+.portfolioThumbFourFeatheredSparrow {
+  background-image: url("../images/portfolioThumb-fourFeatheredSparrow.png");
+}
+
+.portfolioThumbGledeligJul {
+  background-image: url("../images/portfolioThumb-gledeligJul.jpg");
+}
+
+.portfolioThumbHTMLEmails {
+  background-image: url("../images/portfolioThumb-htmlEmails.jpg");
+}
+
+.portfolioThumbAdventistGiving {
+  background-image: url("../images/portfolioThumb-adventistGiving.jpg");
+}
+
+.portfolioThumbWallaWallaPortraitDesign {
+  background-image: url("../images/portfolioThumb-wallaWallaPortraitDesign.jpg");
+}
+
+.contact {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  max-width: 80vw;
+  padding-top: 2em;
+  padding-bottom: 6em;
+}
+@media (min-width: 48rem) {
+  .contact {
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 60rem) {
+  .contact {
+    margin-left: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .contact {
+    margin-right: 20vw;
+  }
+}
+@media (min-width: 60rem) {
+  .contact {
+    margin-right: auto;
+  }
+}
+@media (min-width: 48rem) {
+  .contact {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 60rem) {
+  .contact {
+    max-width: 48rem;
+  }
+}
+.contact h1 {
+  color: #444444;
+  text-align: center;
+}
+
+/*# sourceMappingURL=home.css.map */

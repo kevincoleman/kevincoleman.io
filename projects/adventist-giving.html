@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>kevincoleman.io</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="Description" content="Kevin Coleman’s Portfolio">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../css/projects.css">
+  <link rel="apple-touch-icon" sizes="128x128" href="../images/icon.png">
+  <link rel="icon" href="../images/favicon.png">
+</head>
+
+<body>
+  <header>
+    <h1 class="headerTitle"><a href="/">&lt;<span class="headerName">&nbsp;kevincoleman.io</span></a></h1>
+    <nav class="headerMenu">
+      <a target="_blank" href="https://twitter.com/kevincolemanio" rel="noopener" class="headerMenuLink">
+        <img src="../icons/twitter.svg" alt="Twitter" class="icon">
+      </a>
+      <a target="_blank" href="https://github.com/kevincoleman" rel="noopener" class="headerMenuLink">
+        <img src="../icons/github.svg" alt="GitHub" class="icon">
+      </a>
+      <a target="_blank" href="https://dribbble.com/kevincoleman" rel="noopener" class="headerMenuLink">
+        <img src="../icons/dribbble.svg" alt="Dribbble" class="icon">
+      </a>
+      <a href="mailto:hello@kevincoleman.io" rel="noopener" class="headerMenuLink">
+        <img src="../icons/email.svg" alt="Email" class="icon">
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/kevincolemanio/" rel="noopener" class="headerMenuLink">
+        <img src="../icons/linkedin.svg" alt="LinkedIn" class="icon">
+      </a>
+    </nav>
+  </header>
+  <section class="project">
+    <h1 class="projectTitle">adventistgiving.org: Front-end Application</h1>
+    <figure class="figure">
+      <img src="../images/adventistGiving-envelope.jpg" alt="Donation Envelope website layout" class="figureImage">
+      <figcaption class="figureCaption">The pew-style envelope for helping users navigate their donation experience.</figcaption>
+    </figure>
+    <p class="projectDescription">
+      I had the pleasure of working with the crew at <a href="https://k3.is/" rel="noopener" target="_blank">K3</a>
+      on a project for Adventist Giving. The goal of the project was to create a site that facilitated easy donations
+      from church-goers to their respective churches (or churches they visited). The target user group was all of North
+      America, but the site needed to be functional world-wide.
+    </p>
+    <figure class="figure">
+      <img src="../images/adventistGiving-splash.jpg" alt="Donation Envelope website layout" class="figureImage">
+      <figcaption class="figureCaption">The landing page at <a href="https://adventistgiving.org" rel="noopener" target="_blank">adventistgiving.org</a>.</figcaption>
+    </figure>
+    <p class="projectDescription">
+      To build the site, we leveraged the robust architecture of Google’s Angular 2. We built the platform to handle
+      payments worldwide, both directly via EFT and via Credit/Debit. We also crafted a payment method management
+      system, and integrated the system into Adventist Giving’s existing internal database stuctures.
+    </p>
+    <p class="projectDescription">In particular, I was responsible for crafting up the UIs, including forms, donation
+      pages, account management pages, login modals, and the site’s custom church-search modal. I was responsible not
+      only for visual design of pages, but also for writing much of the front-end JavaScript that renders the
+      application.</p>
+    <figure class="figure figureLeft">
+      <img src="../images/adventistGiving-auth.jpg" alt="Donation Envelope website layout" class="figureImage">
+      <figcaption class="figureCaption">We crafted a unique auth security model.</figcaption>
+    </figure>
+    <p class="projectDescription">
+      We overcame some very interesting, real-world restrictions pertaining to authentication and security in an
+      open-API environment. We wrestled as a team to strike the right balance between convenience and security, erring
+      on the security side.
+    </p>
+    <p class="projectDescription">
+      As part of our construction of the site, we were also trusted as the owners of the public API, which allowed
+      other developers to build native apps against the same database interface. They also used our authentication
+      system, so we got plenty of time collaborating with outside teams. I personally documented large portions of the
+      API by testing endpoints and writing spec.
+    </p>
+    <p class="projectDescription">
+      As a finishing touch, I took the opportunity to provide Adventist Giving with a new logo (they previously had no
+      brand mark—only text). The spot on the hand holds double meaning, representing both Christ’s nail-pierced hand,
+      and the widow giving her last coin—both signs of great sacrifice.
+    </p>
+    <figure class="figure">
+      <a href="https://adventistgiving.org" rel="noopener" target="_blank"><img src="../images/adventistGiving-logo.png"
+          alt="Adventist Giving hand logo" class="figureImage"></a>
+    </figure>
+    <nav class="backLink">
+      <a href="/">&lt; Back to Projects</a>
+    </nav>
+  </section>
+</body>
+
+</html>
