@@ -6,10 +6,9 @@
   "main": "index.js",
   "scripts": {
     "build:sass": "sass ./src/scss:./public/css",
-    "watch:sass": "sass --watch ./src/scss:./public/css",
     "build:static": "copyfiles -e '**/*.scss' -u 1 src/**/* src/* public",
-    "build": "npm run build:static & npm run build:sass",
-    "watch": "watch 'npm run build:static' & npm run watch:sass",
+    "build:all": "npm run build:static & npm run build:sass",
+    "watch": "nodemon --watch src -e html,scss,json --exec \"npm run build:all\"",
     "deploy": "gh-pages -d public"
   },
   "author": "Kevin Coleman",
@@ -17,7 +16,9 @@
   "dependencies": {
     "copyfiles": "^2.2.0",
     "gh-pages": "^2.0.0",
-    "sass": "^1.26.3",
-    "watch": "^1.0.2"
+    "sass": "^1.26.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
