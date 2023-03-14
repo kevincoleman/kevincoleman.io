@@ -116,3 +116,41 @@
     text-align: center;
   }
 }
+
+#pwa {
+  display: none;
+  align-items: center;
+  margin: 5em auto 0;
+  
+  p {
+    margin: 0;
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    p {
+      font-size: .8em;
+    }
+  }
+  @media (min-width: 481px) {
+    justify-content: center;
+  }
+  
+  img.app-icon {
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1.25em;
+  }
+
+  img.safari-icon {
+    height: 1.5em;
+    margin: 0 .35em -.25em;
+    
+  }
+
+  &.show {
+    display: flex;
+  }
+}
