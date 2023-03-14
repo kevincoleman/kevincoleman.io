@@ -8,6 +8,7 @@
 
 .bioPhoto {
   border-radius: 50%;
+  filter: brightness(115%) contrast(90%) saturate(120%);
   width: 60vw;
   margin: 0 20vw 1.5em;
   @media (min-width: $medium) {

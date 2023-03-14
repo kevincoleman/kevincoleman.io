@@ -9,6 +9,8 @@ $background-color: #fff;
 $shadow-color: rgba(0, 0, 0, 0.07);
 $accent-color: #2302b9;
 $text-color: #444444;
+$reversed-text-color: $background-color;
+$svg-filter: invert(14%) sepia(78%) saturate(5758%) hue-rotate(253deg) brightness(68%) contrast(129%);
 
 @mixin marginalized {
   @include left-margin;
@@ -51,6 +53,7 @@ $text-color: #444444;
 
 body,
 html {
+  background-color: $background-color;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -121,7 +124,7 @@ p {
   width: 1.7rem;
   height: 1.7rem;
   margin: 0.8rem 0.6rem;
-  filter: invert(14%) sepia(78%) saturate(5758%) hue-rotate(253deg) brightness(68%) contrast(129%);
+  filter: $svg-filter;
 }
 
 .button {
@@ -131,5 +134,4 @@ p {
   background-color: $accent-color;
   color: $background-color;
   border-radius: 3px;
-  color: #fff;
 }
