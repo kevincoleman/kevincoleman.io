@@ -68,12 +68,21 @@
   </section>
   <section class="contact">
     <h1>Can I help you? <a href="mailto:hello@kevincoleman.io">Let’s talk.</a></h1>
+    <div id="pwa">
+      <img src="./images/icon-512.png" class="app-icon" alt="Home Screen Icon">
+      <div>
+        <p>Or save this site as an app on your homescreen. Use the <img src="./images/safari-icon.svg" class="safari-icon" alt="Safari Icon"> icon in Safari then tap <strong>Add to Home Screen</strong></p>
+      </div>
+    </div>
     <script>
-      if (isInstalled()) {
-        alert('installed')
-      }
-      if (!isInstalled()) {
-        alert('not installed')
+      if (
+        iOS() &&
+        !isInstalled()
+      ) {
+        let pwaDiv = document.getElementById('pwa')
+        if(pwaDiv) {
+          pwaDiv.classList.add('show')
+        }
       }
     </script>
   </section>
