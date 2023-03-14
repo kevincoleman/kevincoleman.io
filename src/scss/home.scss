@@ -25,7 +25,7 @@
   }
   @media (min-width: $yuge) {
     margin-right: calc((100vw - 48rem) / 2);
-    margin-top: -4em;
+    margin-top: -2em;
   }
 }
 
@@ -35,6 +35,13 @@
     @include marginalized;
     text-align: left;
   }
+}
+
+.bioButton {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 1em 0;
 }
 
 .portfolio {

@@ -120,6 +120,16 @@ p {
 .icon {
   width: 1.7rem;
   height: 1.7rem;
-  margin: 0.8rem;
+  margin: 0.8rem 0.6rem;
   filter: invert(14%) sepia(78%) saturate(5758%) hue-rotate(253deg) brightness(68%) contrast(129%);
+}
+
+.button {
+  @include type;
+  padding: .5em 1.5em .65em;
+  display: inline-block;
+  background-color: $accent-color;
+  color: $background-color;
+  border-radius: 3px;
+  color: #fff;
 }
