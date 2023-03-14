@@ -14,6 +14,7 @@
   <link rel="apple-touch-icon" sizes="128x128" href="/images/icon-512.png">
   <link rel="icon" href="/images/favicon.png">
   <script src="./stickyfill.min.js"></script>
+  <script src="./js/scripts.js"></script>
   <script type="text/javascript">
     if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
@@ -67,6 +68,14 @@
   </section>
   <section class="contact">
     <h1>Can I help you? <a href="mailto:hello@kevincoleman.io">Let’s talk.</a></h1>
+    <script>
+      if (isInstalled()) {
+        alert('installed')
+      }
+      if (!isInstalled()) {
+        alert('not installed')
+      }
+    </script>
   </section>
 </body>
 
