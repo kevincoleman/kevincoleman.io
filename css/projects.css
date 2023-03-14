@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400;1,600&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text&display=swap");
 body,
 html {
+  background-color: #fff;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -121,7 +122,6 @@ p {
   background-color: #2302b9;
   color: #fff;
   border-radius: 3px;
-  color: #fff;
 }
 
 .project {
@@ -206,6 +206,7 @@ p {
   max-width: 80vw;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  background-color: #fff;
 }
 @media (min-width: 48rem) {
   .figure {
