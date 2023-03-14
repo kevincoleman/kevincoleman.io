@@ -107,8 +107,21 @@ p {
 .icon {
   width: 1.7rem;
   height: 1.7rem;
-  margin: 0.8rem;
+  margin: 0.8rem 0.6rem;
   filter: invert(14%) sepia(78%) saturate(5758%) hue-rotate(253deg) brightness(68%) contrast(129%);
+}
+
+.button {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  color: #444444;
+  padding: 0.5em 1.5em 0.65em;
+  display: inline-block;
+  background-color: #2302b9;
+  color: #fff;
+  border-radius: 3px;
+  color: #fff;
 }
 
 .project {
