@@ -22,7 +22,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #2302b9;
+  color: #4400b3;
 }
 
 h1,
@@ -35,7 +35,7 @@ h6 {
   font-size: 1.1rem;
   line-height: 2.1rem;
   color: #444444;
-  color: #2302b9;
+  color: #4400b3;
   font-family: "DM Serif Display";
   line-height: 1.3em;
 }
@@ -119,7 +119,7 @@ p {
   color: #444444;
   padding: 0.5em 1.5em 0.65em;
   display: inline-block;
-  background-color: #2302b9;
+  background-color: #4400b3;
   color: #fff;
   border-radius: 3px;
 }
